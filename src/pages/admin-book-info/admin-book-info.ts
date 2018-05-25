@@ -59,6 +59,7 @@ export class AdminBookInfoPage {
     });
     alert.present();
   }
+  //Lending Method
   showLend():void{
     let alert = this.alertCtrl.create({
       title:'Remarks',
