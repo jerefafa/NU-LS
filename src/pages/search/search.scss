@@ -1,0 +1,27 @@
+page-search {
+  ion-icon{
+    background-color: transparent;
+    font-size: x-large;
+  }
+  ion-navbar{
+    text-align: center;
+  }
+  ion-title{
+    margin-right: 19%;
+  }
+  ::-webkit-scrollbar{
+    display: none;
+  }
+  .Author{
+    font-size: small;
+    color: gray;
+  }
+  .searchIcon{
+    color: black;
+    background-color: transparent;
+  }
+  .btnSearch{
+    background-color: white;
+
+  }
+}

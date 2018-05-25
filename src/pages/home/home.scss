@@ -1,0 +1,54 @@
+page-home {
+  height: 20%;
+  ion-navbar{
+    text-align: center;
+    font-family: "Franklin Gothic Medium";
+  }
+  ion-content{
+
+    overflow: hidden;
+    width: 100%;
+    margin-bottom: 20%;
+    height:80%;
+  }
+  .bookButton{
+    color: white;
+    background-color: transparent;
+    width: 10%;
+    float: left;
+    transform: scaleX(-1);
+    -moz-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    -ms-transform: scaleX(-1);
+  }
+  .homesButton{
+    border-radius: 0.3em;
+    width: 80%;
+    height: 80px;
+    background-color: #032254;
+    color: white;
+    font-size: xx-large;
+    margin-left: 9.7%;
+    margin-bottom:10%;
+    border: 1px solid goldenrod;
+  }
+  .buttonDiv{
+    margin-top: 40%;
+
+  }
+
+  ::-webkit-scrollbar{
+    display: none;
+  }
+  .ionContent{
+    height: 100%;
+    background-color: goldenrod;
+  }
+  ion-icon{
+    font-size: x-large;
+    color:white;
+  }
+  ion-title{
+    margin-right: 12%;
+  }
+}

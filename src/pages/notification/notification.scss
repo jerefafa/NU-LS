@@ -1,0 +1,30 @@
+page-notification {
+  ion-navbar{
+    text-align: center;
+  }
+  ::-webkit-scrollbar{
+    display: none;
+  }
+  .bookButton{
+    color: white;
+    background-color: transparent;
+    width: 10%;
+    float: left;
+    transform: scaleX(-1);
+    -moz-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    -ms-transform: scaleX(-1);
+  }
+
+  ion-icon{
+    font-size: x-large;
+    color: white;
+  }
+
+  .ionContent{
+
+  }
+  ion-title{
+    margin-right: 12%;
+  }
+}

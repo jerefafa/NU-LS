@@ -1,0 +1,17 @@
+page-admin-book-info {
+  .bookInfo{
+    width: 90%;
+    height: 50%;
+    margin-left: 5%;
+    border: 2px solid gray;
+  }
+  .actionButtons{
+    margin-top: 3%;
+  }
+
+  ::-webkit-scrollbar{
+    display: none;
+  }
+
+
+}

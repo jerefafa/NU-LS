@@ -1,0 +1,17 @@
+<ion-header>
+  <ion-navbar color="primary">
+      <div class="navbar">
+      <button class="bookButton" (click)="Logout()">
+        <ion-icon name="log-out" item-right></ion-icon>
+      </button>
+  <ion-title>Home</ion-title>
+      </div>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <div class="buttonDiv" (swipe)="swipe($event)">
+ <button class="homesButton" block (click)="openSearchPage()">Search  <ion-icon name="search"></ion-icon></button>
+ <button class="homesButton" block (click)="openScanner()">Borrow <ion-icon name="barcode"></ion-icon></button>
+  </div>
+</ion-content>

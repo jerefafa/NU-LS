@@ -1,0 +1,61 @@
+page-admin-tabs {
+  ::-webkit-scrollbar{
+    display: none;
+  }
+  ion-navbar{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+  }
+  ion-icon{
+    font-size:x-large;
+  }
+  .barcode {
+    margin-left: 5%;
+  }
+  .bookButton{
+    color: white;
+    background-color: transparent;
+    width: 10%;
+    float: left;
+    transform: scaleX(-1);
+    -moz-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    -ms-transform: scaleX(-1);
+  }
+  .logoutButton{
+    color: white;
+    background-color: transparent;
+    float: right;
+  }
+
+  .btnSearch{
+    background-color: white;
+  }
+  ion-content{
+    height: 100%;
+
+  }
+  .openScanner{
+    width: 80%;
+    height: 15%;
+    background-color: #032254;
+    color: white;
+    border-radius: 0.3em;
+    margin-left: 10%;
+    margin-top: 45%;
+  }
+  .openInventory{
+    width: 80%;
+    height: 15%;
+    background-color: #032254;
+    color: white;
+    border-radius: 0.3em;
+    margin-left: 10%;
+    margin-top: 10%;
+  }
+  ion-title{
+    margin-right: 12%;
+  }
+
+}

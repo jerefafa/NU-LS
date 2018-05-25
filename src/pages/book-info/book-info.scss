@@ -1,0 +1,15 @@
+page-book-info {
+  font-size: x-large;
+  .bookInfo{
+    width: 90%;
+    height: 50%;
+    margin-left: 5%;
+    border: 2px solid gray;
+  }
+  ::-webkit-scrollbar{
+    display: none;
+  }
+  a{
+    color: black;
+  }
+}

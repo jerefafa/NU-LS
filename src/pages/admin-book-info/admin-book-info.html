@@ -1,0 +1,31 @@
+<!--
+  Generated template for the BookInfoPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar color="primary">
+    <ion-title>Book Information</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <div class="bookInfo">
+    <b>Object Oriented Programming Using Java</b>
+    <br><br>
+    Author : Simon Kendal
+    <br>
+    ISBN Number:654862
+    <br>
+    Published Date: February 9,2000
+  </div>
+  <div class="actionButtons">
+    <button ion-button block (click)="showCirculation()">Circulation</button>
+    <button ion-button block (click)="showRemarks()">Remarks</button>
+    <button ion-button block (click)="openCamera()">Add Topics</button>
+  </div>
+</ion-content>

@@ -1,0 +1,43 @@
+<!--
+  Generated template for the SearchPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar color="primary">
+    <ion-title>Search</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+  <div class="searchBox">
+    <span class="search"></span>
+    <ion-item>
+
+      <ion-label floating>Search</ion-label>
+      <ion-input [(ngModel)]="keyword" (input)="search($event)"></ion-input>
+      <button  name="search" item-right class="btnSearch" (click)="search()">
+        <ion-icon name="search" class="searchIcon"></ion-icon>
+      </button>
+    </ion-item>
+
+  </div>
+
+  <ion-list class="bookList" >
+
+    <ion-list-header>Books
+
+    </ion-list-header>
+  <div *ngFor="let book of books">
+    <button ion-item (click)="openBookInfo(book.acquisition_number,book.title,book.author,book.edition)">{{book.title}}
+      <br> <a class="Author"> Author : {{book.author}}</a>
+    </button>
+
+
+  </div>
+  </ion-list>
+</ion-content>
